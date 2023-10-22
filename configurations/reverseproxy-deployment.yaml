@@ -15,7 +15,7 @@ spec:
         app: reverseproxy
     spec:
       containers:
-      - image: locn1/udagram-reverseproxy:v1
+      - image: locn1/udagram-reverseproxy:v2
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
